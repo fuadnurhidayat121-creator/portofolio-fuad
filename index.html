@@ -15,23 +15,29 @@
   <div class="wrap">
     <div class="logo">Fuad Nur Hidayat</div>
     <ul class="navlinks">
+      <li><a href="#beranda">Beranda</a></li>
       <li><a href="#tentang">Tentang</a></li>
+      <li><a href="#skill">Keahlian</a></li>
+      <li><a href="#pendidikan">Pendidikan</a></li>
       <li><a href="#proyek">Proyek</a></li>
       <li><a href="#kontak">Kontak</a></li>
+      <li><a href="#sertifikat">Sertifikat</a></li>
     </ul>
   </div>
 </header>
 
-<section class="hero wrap">
-  <img src="image/Fuad.png" alt="Foto Fuad" style="width:120px;height:120px;border-radius:50%;object-fit:cover;display:block;margin:0 auto 20px;">
-  <div class="badge">Junior Web Developer · Magang</div>
-  <h1>Halo, saya <span>Fuad Nur Hidayat</span></h1>
-  <p>Saya sedang magang sebagai web developer, membangun aplikasi berbasis PHP.</p>
-  <div class="cta-row">
-    <a href="#proyek" class="btn btn-primary">Lihat Proyek</a>
-    <a href="http://localhost/toko-batik-serkom/index.php" class="btn btn-ghost">Kunjungi Toko Batik</a>
-  </div>
-</section>
+<div id="beranda">  
+  <section class="hero wrap">
+    <img src="image/Fuad.png" alt="Foto Fuad" style="width:120px;height:120px;border-radius:50%;object-fit:cover;display:block;margin:0 auto 20px;">
+    <div class="badge">Junior Web Developer · Magang</div>
+    <h1>Halo, saya <span>Fuad Nur Hidayat</span></h1>
+    <p>Saya sedang magang sebagai web developer, membangun aplikasi berbasis PHP.</p>
+    <div class="cta-row">
+      <a href="#proyek" class="btn btn-primary">Lihat Proyek</a>
+      <a href="http://localhost/toko-batik-serkom/index.php" class="btn btn-ghost">Kunjungi Toko Batik</a>
+    </div>
+  </section>
+</div>
 
 <div class="wrap">
   <section id="tentang">
@@ -41,13 +47,34 @@
     </div>
   </section>
 
+<section id="profile">
+    <h2>Profile Profesional</h2>
+    <div class="profile">
+      <p>Fokus pada bidang web development, terutama dalam pengembangan aplikasi berbasis PHP dan JavaScript.</p>
+    </div>
+  </section>
+
   <section id="skill">
-    <h2>Skill</h2>
+    <h2>Keahlian</h2>
     <div class="skills">
-      <span class="skill">CodeIgniter 3</span>
-      <span class="skill">DataTables</span>
+      <span class="skill">Laravel</span>
+      <span class="skill">PostgreSQL</span>
       <span class="skill">AdminLTE</span>
       <span class="skill">HTML / CSS </span>
+    </div>
+  </section>
+
+  <section id="pendidikan">
+    <h2>Pendidikan</h2>
+    <div class="pendidikan">
+      <div>
+        <div class="pendidikan-tahun">2024-Sekarang</div>
+        <div class="pendidikan-now">SMKN 1 JENANGAN</div>
+        <div class="pendidikan-desc">Fokus Pengembangan Skill Membuat Website, aplikasi web</div>
+        <div class="pendidikan-tahun">2021-2024</div>
+        <div class="pendidikan-now">SMPN 2 KAUMAN</div>
+        <div class="pendidikan-desc">Sekolah Menengah Pertama, Jenjang Formal Yang Ditempuh Selama 3 Tahun</div>
+      </div>
     </div>
   </section>
 
@@ -58,7 +85,6 @@
         <div class="project-name">Toko Batik</div>
         <div class="project-desc">Website toko batik — katalog produk, keranjang, dan pemesanan lewat WhatsApp.</div>
       </div>
-      <a href="../batik-ci/" class="project-link">Kunjungi →</a>
     </div>
     <div class="project">
       <div>
@@ -68,17 +94,65 @@
     </div>
   </section>
 
+  <section id="sertifikat">
+    <h2>Sertifikat</h2>
+    <div class="sertifikat">
+      <div>
+        <div class="sertifikat-name">Sertifikat Magang</div>
+        <div class="sertifikat-desc">Sertifikat Magang di Kazuya Media Indonesia</div>
+        <img src="image/sertifikat.jpeg" alt="Foto sertifikat"  style="width: 300px !important; height: 200px !important; object-fit: cover !important; border-radius: 8px; display: block; margin-top: 15px;">
+      </div>
+    </div>
+  </section>
+
+  <section id="pengalaman">
+    <h2>Pengalaman</h2>
+    <div class="pengalaman">
+      <div>
+        <div class="pengalaman-desc">Pernah Magang PKL di Kazuya Media IndonesiaSelama 4 Bulan</div>
+      </div>
+    </div>
+  </section>
+
+  <section id="kegiatan">
+  <h2>Kegiatan</h2>
+  <div class="kegiatan">
+    <p>Deskripsi kegiatan</p>
+    
+    <img src="image/kegiatan.jpeg" alt="Kegiatan"  class="kegiatan" style="width: 300px !important; height: 200px !important; object-fit: cover !important; border-radius: 8px; display: block; margin-top: 15px;"> 
+    <img src="image/PKL.jpeg" alt="Kegiatan"  class="kegiatan" style="width: 300px !important; height: 200px !important; object-fit: cover !important; border-radius: 8px; display: block; margin-top: 15px;"> 
+  </div>
+</section>
+
+<section id="artikel">
+  <h2>Artikel</h2>
+  <div class="artikel-isi">
+      Pengalaman Menarik Selama PKL Web Developer
+Melalui program PKL di KAZUYA MEDIA INDONESIA, saya mendapat kesempatan berharga untuk menjajal peran Web Developer secara langsung. Tidak hanya fokus pada pengembangan fitur website, saya juga ikut menangani kebutuhan desain tampilan.
+Selama masa magang, saya banyak mengeksplorasi penggunaan PHP, JavaScript, MySQL, HTML, dan CSS. Selain mengasah skill coding, pengalaman ini memperluas wawasan saya tentang pentingnya komunikasi tim dan manajemen projek yang rapi.
+  </div>
+</section>
+
   <section id="kontak">
     <h2>Kontak</h2>
     <div class="contact-list">
-      <a href="mailto:fuad@example.com">fuad@example.com</a>
+      <a href="mailto:fuadnurhidayat121@gmail.com">fuadnurhidayat121@gmail.com</a>
       <a href="https://github.com/fuadnurhidayat121-creator">github.com/fuad</a>
       <a href="https://www.linkedin.com/in/fuad-nur-hidayat-643ba9424">linkedin.com/in/fuad</a>
+      <a href="https://api.whatsapp.com/send/?phone=6285230120195&text&type=phone_number&app_absent=0">+62 852 3012 0195</a>
     </div>
   </section>
 </div>
 
-<footer>© 2026 Fuad</footer>
+<footer><a href="#tentang">Tentang</a>         <a href="#beranda">Beranda</a>        <a href="#proyek">Proyek</a>        <a href="#kontak">Kontak</a></footer>
+<footer>
+  <div class="socials">
+  </div>
+  © 2026 Fuad
+   <a href="https://www.instagram.com/fuadnh_?stkn=MTBwdWVxMjd1MzJvNg==">Instagram</a>
+   <a href="mailto:fuadnurhidayat121@gmail.com">Email</a>
+  </div>
+</footer>
 
 </body>
 </html>
